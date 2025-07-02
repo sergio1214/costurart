@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-navar: #ececec;
+    
+}
+
+
+.logo{
+    width: 5rem;
+    height: 5rem;
+    background: url(../logo/imagotipo_rojo.svg)no-repeat center;
+}
+.navi{
+    
+    background: var(--color-navar);
+}
+
+.menu {
+    font-size: 1.5rem;
+}
+
+.abrir{
+    font-size: 25px;
+    background: #686868;
+    border-radius: 10px;
+    margin: 10px 0 0 10px;
+    padding: 1rem 2rem 1rem 0;
+}
+.abrir a{
+    color:white;
+}
+
+.img-back1{
+    width: 1320px;
+    height: 599px;
+    background-image: url(../img/banners/banner\ editor\ 1.png) ;
+    padding-top: 30rem;
+    padding-left: 73rem;
+    font-weight: bold;
+}
+
+
+
+
+
+.info {
+    padding: 20px;
+    font-size: 1.2em;
+}
+ h2{
+    font-size: 4rem;
+}
+.form-afuera{
+    padding: 20px;
+    color:red;
+    font-weight: bold;
+}
+
+.form-afuera input{
+    border: 3px solid #ff0000;
+}
+
+.form-control {
+    margin-bottom: 15px;
+    border: 3px solid #ff0000;
+    font-size: 20px;
+}
+
+.ubicacion{
+    color: #000;
+}
+
+
+
+
+footer{
+    margin-top: 5rem;
+    background-color: #d9d9d9;
+    color: #686868;
+}
+
+
+.footer-icons a {
+    color: #686868;
+    font-size: 2rem;
+    margin: 0 30px;
+    transition: color 0.3s;
+}
+.footer-icons a:hover {
+    color: #ff0000;
+}
+
+footer h5{
+    font-size: 30px;
+    font-weight: bold;
+}
+.legal-text {
+    font-size: 0.8rem;
+    margin-top: 15px;
+}
+.footer-links a {
+    color: #686868;
+    margin: 0 20px;
+    text-decoration: none;
+}
+.footer-links {
+    padding-left: 50px;
+}
+.copy{
+    background: white;
+    color: #000;
+}
+.copy p{
+    font-size: 20px;
+}
+.datos{
+    text-align: end;
+    padding-top: 3rem ;
+    font-size: 15px;
+}
+.redes{
+    padding-top:3rem;
+}
+.redes h5{
+    padding-bottom: 1rem;
+}
+
+
+@media screen and (max-width:1320px) {
+    .abrir-menu{
+        display: block;
+        border: none;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:720px) {
+    
+    .datos{
+        text-align: center;
+        padding-top: 3rem ;
+        font-size: 15px;
+    }
+}
